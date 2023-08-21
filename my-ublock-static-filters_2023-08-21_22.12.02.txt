@@ -1,0 +1,90 @@
+! 2023-07-26 https://www.mergermarket.com
+# re-enable right click
+||www.mergermarket.com/common/JavaScript/jQuery/jquery.rightClick.js$script,domain=www.mergermarket.com 
+
+! 2023-07-26 https://www.wsj.com
+# remove annoying right side ads
+||www.marketwatch.com/static_html/daa-min.html$subdocument,domain=www.wsj.com 
+# remove blank banners left after removing paywall
+www.wsj.com##div.evq75q11.css-xgokil-Box:nth-of-type(n)
+# remove banners left after removing paywall
+www.wsj.com##*.uds-ad-container
+# remove subcription reminder overlay
+www.wsj.com###cx-scrim-text-overlay
+# remove empty space inside right column
+www.wsj.com##div.styles--margin-bottom-xlarge--3otsIrdd.WSJTheme--margin-bottom-xlarge--FD1mNjrm:nth-of-type(1) > div:nth-of-type(5)
+
+! 2023-07-26 https://www.ft.com
+# remove popup ads
+www.ft.com##.o-banner--small.o-banner--exponea-marketing-popup-prompt.n-exponea.n-messaging-client-messaging-banner.o-banner
+
+! 2023-08-03 https://www.bloomberg.com
+# Remove top terms of service banner
+www.bloomberg.com##.navi-terms-of-service__table
+# Remove paywall bottom banner
+www.bloomberg.com###fortress-paywall-container-root
+# Remove top banner
+www.bloomberg.com##.dvz-v0-ad-top-mobile.dvz-v0-ad-top.dvz-v0-ad
+
+! 2023-07-26 https://www.imdb.com
+# block sign-in reminder popup
+www.imdb.com##.ipc-list-card--base.khIuxc.sc-bCfvAP.ipc-coachmark.ipc-list-card
+
+! 2023-07-26 https://www.jd.com
+# remove top ad banner
+www.jd.com###J_promotional-top
+# remove app download QR code
+www.jd.com##.mobile_static
+# remove promotion content in the elevator on the right
+www.jd.com##li.elevator_item:nth-of-type(1)
+www.jd.com##li.elevator_item:nth-of-type(2)
+www.jd.com##li.elevator_item:nth-of-type(3)
+
+! 2023-07-26 https://www.taobao.com
+# remove app download QR code
+www.taobao.com##.tbh-qr-wrapper
+
+! 2023-07-26 https://maps.baidu.com
+#remove popup ads
+maps.baidu.com##.message-panel-open 
+maps.baidu.com##.poiLeadDownloadCard
+
+! 2023-07-26 http://ctrip.com
+ctrip.com###fl_wrap_default
+ctrip.com##.root__banner_wrap__shddf
+ctrip.com###marketPlayer
+flights.ctrip.com##.slider-wrap
+trains.ctrip.com##.guide-box
+
+! 2023-07-26 https://www.tianyancha.com
+tianyancha.com##.banner-left
+www.tianyancha.com##.show.banner-bottom
+www.tianyancha.com##.index_activity-banner-wrapper__cDIlb
+
+! 2023-07-26 https://torrentgalaxy.to
+# normalize "open in new tab"
+||torrentgalaxy.to/common/js/tgxjs.js?v=16$script,1p 
+# Remove all ads
+torrentgalaxy.to##[href^="/bub.php?b=h0tdeal&0ffer="]
+
+! 2023-07-26 https://1337x.to
+# remove annoying popup when open in new tab
+||1337x.to/js/modal.js$script,1p 
+
+! 2023-07-26 https://rutracker.org
+rutracker.org##.ext-links
+
+! 2023-07-26 https://www.hegre.com
+www.hegre.com##.visible.online-live-cam-performers-popup
+
+! 2023-07-26 https://www.freecoursesonline.me
+www.freecoursesonline.me##.ab-detector-wrap
+
+! 2023-08-03 https://sktorrent.eu
+# Remove top banner reminding you are not VIP
+sktorrent.eu###mini-notification
+
+! 2023-08-03 https://www.sex.com
+# Remove blank ad box
+www.sex.com##.ad-iframe-wrap
+
